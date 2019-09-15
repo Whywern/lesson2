@@ -4,7 +4,6 @@ classes = [
     {'school_class': '4c', 'scores': [4,1,1,5]}
 ]
 x = 0
-y = 0
 for sred_school in classes:
     x = x + sum(sred_school['scores']) / len(sred_school['scores'])
     sred_school = x / len(classes)
